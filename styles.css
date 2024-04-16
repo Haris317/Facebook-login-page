@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 100px;
+}
+.container .Text h1{
+    color: blue;
+    font-weight: bold;
+    font-size: 70px;
+}
+.container .Text p{
+    font-size: 30px;
+}
+.container .login{
+    width: 420px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    box-shadow: 5px 5px 10px 2px  rgb(176, 175, 175);
+}
+.container .login input{
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 0.3rem;
+    outline-color: lightblue;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+.container .login .btn{
+    width: 400px;
+    height: 50px;
+    background-color: #3b5998;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 0.3rem;
+    border: 1px solid #3b5998;
+}
+.container .login a{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.container .login .btn1{
+    width: 300px;
+    height: 50px;
+    margin: 45px;
+    margin-left: 60px;
+    background-color: rgb(11, 162, 11);
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(11, 162, 11);
+}
+.container .login .btn1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .login hr{
+    color: rgb(137, 137, 137);
+    width: 415px;
+}
+.body{
+    background-color: #d8dfec;
+}
+.hero{
+    width: 50%;
+    height: 100vh;
+    border: 1px solid #d8dfec;
+    margin-left: 400px;
+    
+}
+.hero h1 {
+    margin-left: 60px;
+    letter-spacing: 20px;
+}
+.hero p{
+    margin-left:60px ;
+    
+}
+.hero .put{
+    margin: 10px;
+    margin-left: 50px;
+    display: flex;
+}
+.hero .put input{
+    margin: 10px;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    outline-color: lightblue;
+    border: none;
+}
+
+.hero .inp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.hero .inp label{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.hero .inp input{
+    width: 624px;
+    height: 60px;
+    margin: 10px;
+    font-size: 20px;
+    outline-color: lightblue;
+    border: none;
+}
+.hero .inp .gender{
+    display: flex;
+    width: 150px;
+}
+.hero .inp .gender label{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.hero .inp p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(11, 162, 11);
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(11, 162, 11);
+    border-radius: 0.3rem;
+}
